@@ -1,0 +1,35 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Customizing IP...
+Release 14.7 - Xilinx CORE Generator IP GUI Launcher P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+ERROR:coreutil - ERROR:sim - Unable to find G:/bpsk_sin_sim/filter/filter4.coe
+      Coregen is looking for G:\bpsk_sin_sim\filter\filter4.coe
+   ERROR:sim - Unable to find G:/bpsk_sin_sim/filter/filter4.coe
+      Coregen is looking for G:\bpsk_sin_sim\filter\filter4.coe
+   ERROR:sim:781 - An invalid core configuration has been detected during
+      Customization. Core parameters will be reset to their default values.
+WARNING:coreutil - WARNING:sim:192 - Xco Parameter changed from
+   (Component_Name,myfir) to
+      (Component_Name,fir_compiler_v5_0) during Recustomization.
+   WARNING:sim:192 - Xco Parameter changed from (CoefficientSource,COE_File) to
+      (CoefficientSource,Vector) during Recustomization.
+   WARNING:sim:192 - Xco Parameter changed from
+      (Coefficient_File,G:/bpsk_sin_sim/filter/filter4.coe) to
+      (Coefficient_File,no_coe_file_loaded) during Recustomization.
+   WARNING:sim:192 - Xco Parameter changed from (Sample_Frequency,50) to
+      (Sample_Frequency,0.001) during Recustomization.
+   WARNING:sim:192 - Xco Parameter changed from (Clock_Frequency,50) to
+      (Clock_Frequency,250.0) during Recustomization.
+   WARNING:sim:192 - Xco Parameter changed from (Coefficient_Width,12) to
+      (Coefficient_Width,16) during Recustomization.
+   WARNING:sim:192 - Xco Parameter changed from (Data_Width,2) to
+   (Data_Width,16)
+      during Recustomization.
+   WARNING:sim:192 - Xco Parameter changed from (Output_Width,16) to
+      (Output_Width,24) during Recustomization.
+   WARNING:sim:192 - Xco Parameter changed from (ColumnConfig,15) to
+      (ColumnConfig,1) during Recustomization.
+Cancelled Customization.
+Wrote CGP file for project 'myfir'.
