@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=G:\bpsk_sin_sim\impact.xsl
+OUTFILE=G:\bpsk_sin_sim\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=G:\bpsk_sin_sim
+LICENSE=iMPACT
+USER_INFO=iMPACT

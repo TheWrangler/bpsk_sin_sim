@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            02/24/2020 - 23:22
+SOURCE          G:\bpsk_sin_sim\mcs\top_20200224_01.mcs
+DEVICE          2048K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x1ABF0B0E
+START_ADDRESS   0x00000000 END_ADDRESS 0x0005327B DIRECTION_UP   "G:/bpsk_sin_sim/top.bit" 6slx9ftg256

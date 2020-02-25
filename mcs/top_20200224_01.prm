@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o G:\bpsk_sin_sim\mcs//top_20200224_01.mcs -s 2048 -u 0000 G:/bpsk_sin_sim/top.bit -spi 
+
+PROM G:\bpsk_sin_sim\mcs\top_20200224_01.prm map: Mon Feb 24 23:22:12 2020
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          2048K
+PROM start    0000:0000
+PROM end      001f:ffff
+PROM checksum 1abf0b0e
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:327b     Feb 24 23:17:56 2020 G:/bpsk_sin_sim/top.bit
