@@ -14,19 +14,17 @@
 # //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
 # //
 # do {top_tb.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 22:57:57 on Feb 24,2020
+# Start time: 00:46:48 on Apr 29,2020
 # vlog -reportprogress 300 ipcore_dir/clk_gen.v 
 # -- Compiling module clk_gen
 # 
 # Top level modules:
 # 	clk_gen
-# End time: 22:57:57 on Feb 24,2020, Elapsed time: 0:00:00
+# End time: 00:46:48 on Apr 29,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 22:57:57 on Feb 24,2020
+# Start time: 00:46:49 on Apr 29,2020
 # vlog -reportprogress 300 ipcore_dir/myfir.v 
 # -- Compiling module myfir
 # -- Compiling module glbl
@@ -34,69 +32,77 @@
 # Top level modules:
 # 	myfir
 # 	glbl
-# End time: 22:57:57 on Feb 24,2020, Elapsed time: 0:00:00
+# End time: 00:46:49 on Apr 29,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 22:57:57 on Feb 24,2020
+# Start time: 00:46:49 on Apr 29,2020
 # vlog -reportprogress 300 PNGen.v 
 # -- Compiling module PNGen
 # 
 # Top level modules:
 # 	PNGen
-# End time: 22:57:57 on Feb 24,2020, Elapsed time: 0:00:00
+# End time: 00:46:50 on Apr 29,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 22:57:57 on Feb 24,2020
+# Start time: 00:46:50 on Apr 29,2020
 # vlog -reportprogress 300 pwr_rst.v 
 # -- Compiling module pwr_rst
 # 
 # Top level modules:
 # 	pwr_rst
-# End time: 22:57:57 on Feb 24,2020, Elapsed time: 0:00:00
+# End time: 00:46:50 on Apr 29,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 22:57:57 on Feb 24,2020
+# Start time: 00:46:50 on Apr 29,2020
 # vlog -reportprogress 300 bit_stream.v 
 # -- Compiling module bit_stream
 # 
 # Top level modules:
 # 	bit_stream
-# End time: 22:57:57 on Feb 24,2020, Elapsed time: 0:00:00
+# End time: 00:46:50 on Apr 29,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 22:57:57 on Feb 24,2020
+# Start time: 00:46:50 on Apr 29,2020
 # vlog -reportprogress 300 top.v 
 # -- Compiling module top
-# ** Warning: top.v(102): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: top.v(106): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
 # 
 # 
 # Top level modules:
 # 	top
-# End time: 22:57:57 on Feb 24,2020, Elapsed time: 0:00:00
+# End time: 00:46:50 on Apr 29,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 22:57:57 on Feb 24,2020
+# Start time: 00:46:50 on Apr 29,2020
 # vlog -reportprogress 300 top_tb.v 
 # -- Compiling module top_tb
 # 
 # Top level modules:
 # 	top_tb
-# End time: 22:57:57 on Feb 24,2020, Elapsed time: 0:00:00
+# End time: 00:46:50 on Apr 29,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 22:57:57 on Feb 24,2020
+# Start time: 00:46:50 on Apr 29,2020
 # vlog -reportprogress 300 D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v 
 # -- Compiling module glbl
 # 
 # Top level modules:
 # 	glbl
-# End time: 22:57:57 on Feb 24,2020, Elapsed time: 0:00:00
+# End time: 00:46:50 on Apr 29,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -gui -do "do {top_tb.fdo}" 
-# Start time: 22:57:57 on Feb 24,2020
+# Start time: 00:46:50 on Apr 29,2020
 # ** Note: (vsim-3812) Design is being optimized...
 # 
-# ** Warning: top.v(102): (vopt-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: top.v(106): (vopt-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# ** Warning: top_tb.v(38): (vopt-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 9, found 6.
+# 
+# ** Warning: top_tb.v(38): (vopt-2718) [TFMPC] - Missing connection for port 'dac_data2'.
+# 
+# ** Warning: top_tb.v(38): (vopt-2718) [TFMPC] - Missing connection for port 'dac_wrt2'.
+# 
+# ** Warning: top_tb.v(38): (vopt-2718) [TFMPC] - Missing connection for port 'dac_clk2'.
 # 
 # Loading work.top_tb(fast)
 # Loading work.top(fast)
@@ -128,61 +134,13 @@
 # Loading unisims_ver.MUXCY_D(fast)
 # Loading unisims_ver.MUXCY(fast)
 # Loading work.glbl(fast)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Administrator  Hostname: WIN7-2020SRHSVK  ProcessID: 4352
-# 
-#           Attempting to use alternate WLF file "./wlftz2dq80".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftz2dq80
-# 
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
-add wave -position insertpoint  \
-sim:/top_tb/uut/d_in
-add wave -position insertpoint  \
-sim:/top_tb/uut/d_out
-add wave -position insertpoint  \
-sim:/top_tb/uut/data_temp
-add wave -position insertpoint  \
-sim:/top_tb/uut/dac_temp
+# Break key hit
+# Causality operation skipped due to absence of debug database file
 restart
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# 
-# Loading work.top_tb(fast)
-# Loading work.top(fast)
-# Loading work.clk_gen(fast)
-# Loading unisims_ver.IBUFG(fast)
-# Loading unisims_ver.PLL_BASE(fast)
-# Loading unisims_ver.PLL_ADV(fast)
-# Loading unisims_ver.BUFG(fast)
-# Loading unisims_ver.ODDR2(fast)
-# Loading work.pwr_rst(fast)
-# Loading work.bit_stream(fast)
-# Loading work.PNGen(fast)
-# Loading work.myfir(fast)
-# Loading unisims_ver.VCC(fast)
-# Loading unisims_ver.GND(fast)
-# Loading unisims_ver.FDE(fast)
-# Loading unisims_ver.SRLC16E(fast)
-# Loading unisims_ver.SRLC32E(fast)
-# Loading unisims_ver.INV(fast)
-# Loading unisims_ver.LUT1(fast)
-# Loading unisims_ver.FD(fast)
-# Loading unisims_ver.LUT2(fast)
-# Loading unisims_ver.LUT3(fast)
-# Loading unisims_ver.LUT2(fast__1)
-# Loading unisims_ver.LUT2(fast__2)
-# Loading unisims_ver.FDRE(fast)
-# Loading unisims_ver.DSP48A1(fast)
-# Loading unisims_ver.XORCY(fast)
-# Loading unisims_ver.MUXCY_D(fast)
-# Loading unisims_ver.MUXCY(fast)
-# Loading work.glbl(fast)
-restart
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # 
 # Loading work.top_tb(fast)
 # Loading work.top(fast)
@@ -215,3 +173,19 @@ restart
 # Loading unisims_ver.MUXCY(fast)
 # Loading work.glbl(fast)
 run -all
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 01:23:16 on Apr 29,2020, Elapsed time: 0:36:26
+# Errors: 14, Warnings: 11

@@ -1,0 +1,172 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/bpsk_sin_sim
+T_opt
+!s110 1588092412
+VII3N2]LH460SE5`=5<j1O3
+04 6 4 work top_tb fast 0
+04 4 4 work glbl fast 0
+=1-2cfda11e2195-5ea85dfb-237-178c
+o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+n@_opt
+OL;O;10.4;61
+vbit_stream
+Z1 !s110 1588092410
+!i10b 1
+!s100 6mE5KQH7VOYH8a3ZSjiXf3
+Il4I4;:9hnVzfB0X[<DEBg1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1582454618
+8bit_stream.v
+Fbit_stream.v
+L0 3
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1588092410.148000
+!s107 bit_stream.v|
+!s90 -reportprogress|300|bit_stream.v|
+!i113 0
+vclk_gen
+!s110 1588092408
+!i10b 1
+!s100 E27OBmMhZOWoUEH1WYXFM2
+IJ47oj9bM1[eMbOHOnBga<1
+R2
+R0
+w1582459143
+8ipcore_dir/clk_gen.v
+Fipcore_dir/clk_gen.v
+L0 71
+R3
+r1
+!s85 0
+31
+!s108 1588092408.869000
+!s107 ipcore_dir/clk_gen.v|
+!s90 -reportprogress|300|ipcore_dir/clk_gen.v|
+!i113 0
+vglbl
+R1
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+Ib957=Rd9nAhgDl589zl>a2
+R2
+R0
+w1381681120
+8D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FD:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1588092410.725000
+!s107 D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|D:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 0
+vmyfir
+!s110 1588092409
+!i10b 1
+!s100 J24Cfk3;EJ_cLl6j7[[io3
+InJ2ad1FNMfSob2:>@@OP[1
+R2
+R0
+w1582534039
+8ipcore_dir/myfir.v
+Fipcore_dir/myfir.v
+L0 36
+R3
+r1
+!s85 0
+31
+!s108 1588092409.851000
+!s107 ipcore_dir/myfir.v|
+!s90 -reportprogress|300|ipcore_dir/myfir.v|
+!i113 0
+vPNGen
+R1
+!i10b 1
+!s100 Gg9KAK=h^FO3IYXm`G1kI1
+I<jAz;9[S[aG[cUXlNMg=[3
+R2
+R0
+w1582124459
+8PNGen.v
+FPNGen.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1588092409.945000
+!s107 PNGen.v|
+!s90 -reportprogress|300|PNGen.v|
+!i113 0
+n@p@n@gen
+vpwr_rst
+R1
+!i10b 1
+!s100 ?No26EJ`e?VTZVKb_L3h:0
+IS1kMU=c=zF;Q_`aK`zM<P1
+R2
+R0
+w1582124449
+8pwr_rst.v
+Fpwr_rst.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1588092410.101000
+!s107 pwr_rst.v|
+!s90 -reportprogress|300|pwr_rst.v|
+!i113 0
+vtop
+R1
+!i10b 1
+!s100 BkJ>afa2UDa4iiM9iYCJ11
+IiaVU1<eQN8G;E^DhH33zh2
+R2
+R0
+w1582557438
+8top.v
+Ftop.v
+L0 21
+R3
+r1
+!s85 0
+31
+!s108 1588092410.195000
+!s107 top.v|
+!s90 -reportprogress|300|top.v|
+!i113 0
+vtop_tb
+R1
+!i10b 1
+!s100 5ZdPazeIe^LUR>WDB8[LW3
+I7Zc1N9iN>>T@nVXh:WJbX0
+R2
+R0
+w1582539574
+8top_tb.v
+Ftop_tb.v
+L0 25
+R3
+r1
+!s85 0
+31
+!s108 1588092410.335000
+!s107 top_tb.v|
+!s90 -reportprogress|300|top_tb.v|
+!i113 0

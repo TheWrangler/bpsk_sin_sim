@@ -104,7 +104,7 @@ module top
     assign data_temp = d_out + 16'h3f_ff;
 
     wire unsigned [14:0] dac_temp = data_temp[14:0];
-    assign dac_data1 = (dac_temp >> 1);
+    assign dac_data1 = (dac_temp >> 2) + 14'h1c80;
 
     ODDR2 #(
         .DDR_ALIGNMENT("NONE"), // Sets output alignment to "NONE", "C0" or "C1"
@@ -166,6 +166,6 @@ module top
         .R(1'b0),   // 1-bit reset input
         .S(1'b0)    // 1-bit set input
     );
-    assign dac_data2 = bit ? 14'h3f_ff : 14'h00_00;
+    assign dac_data2 = bit ? 14'h3f_ff : 14'h20_00;
 
 endmodule
