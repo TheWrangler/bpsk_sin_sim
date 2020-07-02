@@ -8,20 +8,5 @@
 <msg type="info" file="sim" num="172" delta="old" >Generating IP...
 </msg>
 
-<msg type="warning" file="sim" num="472" delta="new" >The chosen IP does not support a Verilog behavioral model, generating a Verilog structural model instead.
-</msg>
-
-<msg type="warning" file="coreutil" num="0" delta="new" >WARNING: Default charset GBK not supported, using ISO-8859-1 instead
-</msg>
-
-<msg type="warning" file="sim" num="192" delta="new" >Xco Parameter changed from (<arg fmt="%s" index="1">Coefficient_File</arg>,<arg fmt="%s" index="2">G:/bpsk_sin_sim/filter/filter4.coe</arg>) to (<arg fmt="%s" index="3">Coefficient_File</arg>,<arg fmt="%s" index="4">G:\bpsk_sin_sim\filter\filter4.coe</arg>) during Recustomization.
-</msg>
-
-<msg type="info" file="sim" num="949" delta="new" >Finished generation of ASY schematic symbol.
-</msg>
-
-<msg type="info" file="sim" num="948" delta="new" >Finished FLIST file generation.
-</msg>
-
 </messages>
 

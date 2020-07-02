@@ -30,10 +30,12 @@ module top
 
     output dac_clk2,
     output dac_wrt2,
-    output [13:0] dac_data2
+    output [13:0] dac_data2,
+
+    output pulse_20us
 );
 
-    //generate 90MHz\3MHz clock
+    //generate 50MHz\3MHz clock
 	wire clk_50m;
 	wire clk_3m;
     wire clk_50m_180d;
@@ -167,5 +169,12 @@ module top
         .S(1'b0)    // 1-bit set input
     );
     assign dac_data2 = bit ? 14'h3f_ff : 14'h20_00;
+
+    //generate 100us period 20us pulse
+    pulse pulse_inst(
+        .clk(clk_50m),
+        .rst(rst),
+        .pulse_20ms(pulse_20us)
+    );
 
 endmodule
