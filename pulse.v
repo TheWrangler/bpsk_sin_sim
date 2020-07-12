@@ -22,21 +22,21 @@ module pulse
 (
     input clk,
     input rst,
-    output reg pulse_20ms
+    output reg pulse_20us
 );
 
     reg [15:0] counter;
     always @ (posedge clk) begin
         if(!rst) begin
-            pulse_20ms <= 1'b0;
+            pulse_20us <= 1'b0;
             counter <= 16'd0;
         end
         else begin
             counter <= counter + 16'd1;
             if(counter < 16'd1000)
-                pulse_20ms <= 1'b1;
+                pulse_20us <= 1'b1;
             else if(counter < 16'd5000)
-                pulse_20ms <= 1'b0;
+                pulse_20us <= 1'b0;
             else counter <= 16'd0;
         end
     end

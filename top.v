@@ -32,7 +32,8 @@ module top
     output dac_wrt2,
     output [13:0] dac_data2,
 
-    output pulse_20us
+    output pulse_20us_p,
+    output pulse_20us_n
 );
 
     //generate 50MHz\3MHz clock
@@ -174,7 +175,9 @@ module top
     pulse pulse_inst(
         .clk(clk_50m),
         .rst(rst),
-        .pulse_20ms(pulse_20us)
+        .pulse_20us(pulse_20us_p)
     );
+
+    assign pulse_20us_n = ~pulse_20us_p;
 
 endmodule
